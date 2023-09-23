@@ -1,0 +1,207 @@
+
+// Smasher:
+// Unlock: Kill 40/100/200 enemies with hammers.
+// Effect: Hammer attacks have a 100% chance to reduce enemy attack speed by 10%/20%/30% for 5 seconds.
+// Mastery: Hammer attacks have an additional 6 stun.
+
+// Javelineer:
+// Unlock: Kill 40/100/200 enemies with spears.
+// "Effect: Spear attacks have a 100% chance to cause you to reflect 50%/75%/100% of damage taken back at the attacker. Additionally, thrown spear damage is increased by 10%/20%/30%."
+// Mastery: Spear charged attack damage increased by 30%. 
+
+// Assassin:
+// Unlock: Kill 40/100/200 enemies with dagger attacks. The bleed from this mutation does not count towards this unlock.
+// Effect: Dagger attacks have a 100% chance to bleed the target for 6/15/20 damage a second for 5 seconds.
+// Mastery: Dagger attacks have a 100% chance to cause the enemy to take 25% increased bleed damage for 5 seconds.
+
+// Sharpshooter:
+// Unlock: Kill 40/100/200 enemies with bow attacks.
+// Effect: Bow attacks have a 100% chance to reduce sprint stamina usage by 50%/75%/100% for 5 seconds.  Removed when combat ends.
+// Mastery: Bow attacks have a 100% chance to apply an additional effect on the enemy based on the type of arrow fired:
+// Mint: Reduces movement speed by 30% for 5 seconds.
+// Sour: Add an additional 10 stun.
+// Spicy: Burns the enemy for 10 spicy damage each second for 5 seconds.
+
+// Barbarian:
+// Unlock: Kill 40/100/200 enemies with club attacks.
+// "Effect: Club attacks have a 100% chance to cause you to enter a rage, increasing club damage by 15%/20%/25% for 5 seconds and prevents perfect blocking for 10 seconds."
+// Mastery: Club attacks have a 100% chance to cause you to regenerate 1 health a second for 5 seconds. This regeneration is removed upon leaving combat.
+
+// Blademaster:
+// Unlock: Kill 40/100/200 enemies with sword attacks.
+// Effect: Sword attacks have a 100% chance to cause the enemy to deal 10%/20%/30% less damage for 5 seconds.
+// "Mastery: Sword attacks have a 100% chance to buff the player for 5 seconds, allowing their stamina to start regenerating 90% faster once it is fully depleted."
+
+// Whittle Wizard:
+// Unlock: Kill 40/100/200 enemies with staff attacks.
+// Effect: Staff attacks have a 100% chance to proc an additional effect on the enemy:
+// Mint: Reduces movement speed by 10%/20%/30% for 5 seconds.
+// Sour: Adds 2/4/6 stun.
+// Spicy: Burns the target for 5/10/15 each second for 5 seconds.
+// "Mastery: Staff attacks have a 100% chance to buff you for 5 seconds, reducing the stamina cost of ALL attacks by 50% for 5 seconds."
+
+// Parry Master:
+// Unlock: Perfect block 25/50/100 enemy attacks.
+// Effect: Gives your perfect blocks a 100% chance to return 5/10/15 stamina instantly.
+// Notes: This stamina gain resets the timer before your stamina starts to regenerate naturally and can be a detriment if you're low on stamina and trying to get a full stamina reboot.
+
+// Meat Shield:
+// Unlock: Unlocked with science.
+// Effect: Increases maximum health by 50.
+
+// Buff Lungs:
+// Unlock: Unlocked with science after getting the Red Anthill BURG.L Chip.
+// Effect: Increases maximum stamina by 50.
+
+// Daredevil:
+// Unlock: Unlocked with science after getting the Hedge BURG.L Chip.
+// Effect: Reduces fall damage by 50%.
+
+// Grass Master:
+// Unlock: Cut down 50/200/500 sources of grass.
+// Effect: Increases damage by 50%/75%/100% while harvesting grass. Additionally gives your grass harvesting attacks a 100% chance to return 5/10/15 stamina instantly.
+
+// Rock Cracker:
+// Unlock: Break 25/60/105 rocks.
+// Effect: Increases damage by 50%/75%/100% while harvesting rocks.
+// "Works on the following: All Rocks, Toenails, Charcoal, Clay, Salt Clusters, Rust (on walls, not nails), Sap Nodules, and all tiers of armor and weapon upgrade rocks."
+
+// Ant-nihilator:
+// Unlock: Kill 15/45/100 ant enemies. You must be the one to get the killing blow and not other enemies.
+// "Effect: Increases attack damage by 5%/15%/25% while attacking ants. Additionally, reduces the damage you take from ants by 0/0/10%."
+
+// Coup de Grass:
+// "Unlock: Discover the Lucky Clover or Roll a 20 with the 20-sided die at the Minotaur Maze's End. Each secret discovery adds +1 to the rank, for a maximum of 2 ranks."
+// Effect: Increases critical chance by 2.5%/5%.
+
+// Juicy:
+// Unlock: Discover 5 juice box POIs.
+// Effect: Reduces thirst rate by 50%.
+
+// Natural Explorer:
+// Unlock: Discover 20/50/80 landmarks.
+// "Effect: Increases movement speed by 20%/35%/50%. Additionally, attacking a non-aggressive enemy has a 100% chance to reduce your movement speed by 18/22/37% for 20 seconds or until you leave combat."
+// "Notes: This interaction is currently slightly incorrect and has a combined effect as follows: 1.2 * .88 = 1.056; 1.35 * .73 = 0.9855; 1.5 * .67 = 1.005 respectively for each rank. Rank 1 will allow a 5% speed increase in combat, rank 2 is a 1.45% slow down, and Rank 3 is 0.5% speed increase."
+
+// Merteen:
+// Unlock: Discover 4 underwater locations in the pond.
+// Effect: Increases swim speed by 15% and reduces oxygen consumption while swimming by 10%.
+
+// Cardio Fan:
+// Unlock: Fully exhaust your stamina 100/250/500 times. You must drain the bar completely for this to count.
+// "Effect: Increases your stamina regenerate rate by 15%/20%/30%. Additionally, reduces the time it takes for your stamina to begin regenerating again after becoming fully exhausted by 10%/20%/30%."
+
+// Reliable Friend:
+// Unlock: Revive an ally player 5/15/30 times.
+// Effect: Reduces the time it takes to revive an ally by 25%/50%/75%.
+
+// Fresh Defense:
+// Unlock: Consume 1/5/10 mint candies.
+// "Effect: Reduces gas and burning damage taken by 25%/50%/50%. Additionally, reduces sizzle accumulation by 25%/50%/75%."
+// Notes: The third rank of this mutation only gives 50% gas and burning damage reduction. I doubled checked and this is not a typo.
+
+// Spicy Safety:
+// Unlock: Consume 1/3 spicy candies.
+// Effect: Reduces damage taken from smashing and stabbing attacks by 25%/50%.
+// Note: Bugs have a variety of damage types for their attacks. Please refer to the recently updated wiki page that has all of this information to see which enemies this mutation works against.
+
+// Mom Genes:
+// Unlock: Kill the Hedge Broodmother.
+// Effect: Increases your poison attack damage by 50%.  Additionally gives your attacks against creatures a 10% chance to summon a spiderling minion at the enemy's location. This spider has 25 hp and only does basic bite attacks.  
+
+
+// Mithridatism:
+// Unlock: Kill 1/5/10 Wolf Spiders.
+// Effect: Reduces the poison damage you take by 25%/50%/75%. This only applies to poisons and not venoms.
+// Note: The venoms that the black widows apply is not considered a poison and does not have its damage reduced by this mutation. The actual poisons the black widows apply is appropriately reduced. Keep in mind the widows have both a poison and venoms.
+
+// Truffle Tussle:
+// Unlock: Kill the Infected LadyBug miniboss at the end of the Haze Lab.
+// Effect: Gives your unarmed attacks a 10% chance to cause a 400 range AoE explosion that deals 100 explosive damage to all enemies in range.
+// Notes: This explosion is not considered an unarmed attack and does not benefit from Lil Fist or the Power Droplet's damage increases for unarmed damage. Kills with it also do not count towards unlocking Lil Fist.
+
+// Guard Dog:
+// "Unlock: Successfully defend 1/4/9 defense point objectives, such as MIX.Rs or the charcoal defense."
+// Effect: Increases attack damage by 10%/25%/50% while attacking enemies that are part of a revenge or point defense attack.
+
+// Trapper PEEP.R:
+// Unlock: Loot 20/40/59 unique gold card drops from enemies.
+// Effect: Increases critical damage multiplier by 0.2/0.4/0.6. This stacks additively with the base critical damage multiplier of 1.7.
+
+// Mantsterious Stranger:
+// Unlock: Kill the Mant boss in the Undershed.
+// "Effect: Gives your attacks on creatures a 2% chance to summon a miniature version of the Mant boss at the enemy's location to fight for you. This minion has 3000 health, lasts for X seconds. and has only three of the Mant's abilities (Smash, Punch, and 2-hit combo)."
+// Still need to confirm the duration.
+
+// Apex Predator:
+// Unlock: Kill the Mantis boss.
+// "Effect: Empowers your boss weapons, giving them special properties:"
+// Club of the Mother Demon and Blaster Bombs Empower: Gives your attacks with this weapon a 20% chance to apply a buff on yourself for 10 seconds which causes hits from this weapon to have a 100% chance to venom enemies for 45 damage every 5 seconds for 30 seconds.
+// Notes: The buff that is applied lasts for 10 seconds and can be used to envenom an unlimited number of enemies.  This means you can proc the buff and then run around envenoming everything for 10 seconds and watch as they die to the strongest DOT in the game.
+// "Scythe of Blossoms Empower: Gives your attacks against creatures with this weapon a 20% chance to apply a buff to yourself, increasing attack speed with all weapons by 25% while simultaneously reducing attack damage for all weapons (except unarmed and dagger; scythe is a dagger) by 75% for 10 seconds."
+// Notes: The buff can only be proced by attacking enemies. Chopping resources will not work. The attack speed buff works with any weapon and you can swap weapons and keep the buff. This opens up interesting strategies where you can proc the 25% attack speed buff and then swap to any other weapon to benefit from it for 10 seconds.
+// Bard Bow Empower:
+// "Effect: Gives your attacks with the Bard Bow a 20% chance to apply a buff to yourself for 10 seconds, granting your Bard Bow attacks a 25% chance to spawn a Wasp to attack the enemy."
+// "This wasp has 100 hp and performs only one attack: Charged Sting. This attack deals 90 stabbing damage, 10 stun, poisons the enemy for 15 damage every 5 seconds for 10 seconds and bleeds the enemy for 1 damage every second for 10 seconds. "
+
+// Corporate Kickback:
+// Unlock: Kill Director Schmector.
+// Effect: Blocking an attack has a 5% chance to give you 100% lifesteal for the next 5 seconds.
+
+// Shocking Dismissal:
+// Unlock: Kill the Assistant Manager.
+// "Effect: Blocking an attack has a 20% chance to cause your next attack to proc a 500 range AoE shock explosion, dealing 75 shock damage and 40 stun."
+// "Note: This proc does not work with staves as the buff is missing the flag for that weapon type. It works with everything else, including bows, thrown weapons, and even the shovel. Sorry wizards. Interestingly, the explosion also applies off blocks."
+
+// Hauling Hero:
+// Unlock: Increase your coziness level to rank 2/3/4.
+// Effect: Increases your hauling capacity by 5/10/15 planks/stems.
+
+// Dissection Expert:
+// Unlock: Forgotten Burgle Chip and 3000 science.
+// Effect: Increases luck by 10%. Luck increases the drop rate of items.
+
+// Rascal Rogue:
+// Unlock: Find 1/4/7 statues hidden in the yard.
+// Effect: Causes your melee hits to have a 2%/5%/10% chance to steal items from enemies. Not all items can be stolen. Stealing an item from an enemy prevents anymore items from being stolen from that enemy until it dies/despawns and respawns.
+
+// Sour Sensation:
+// Unlock: Eat 1/5/10 sour candies.
+// "Effect: Grants you thorns, reflecting 7%/14%/25% of incoming damage back at the attacker."
+
+// Bardic Inspiration:
+// Unlock: Kill the Wasp Queen.
+// Effect: Gives all of your bow attacks a 50% chance to play a bardic melody. This melody has a chance to apply a buff to players within 3000 range:
+// 20% chance to increase critical strike chance by 10% for 10 seconds.
+// 20% chance to increase damage of all attacks by 20% for 10 seconds.
+// 20% chance to reduce damage taken by 25% for 10 seconds.
+// Each of these chance rolls happen independently on each melody played.
+// These buffs are unique as a group and you may only have ONE bard buff in total at a time. Receiving a new bard buff will overwrite the previous buff.
+
+// Spore Lord:
+// Unlock: kill the Infected Broodmother 1 time
+// "This mutation applies 4 buffs to you.  All stacks are removed when leaving combat. 
+
+//         Explosive Damage Up: Gives your explosive attacks a 1% chance to apply a stacking buff that increases your explosive attack's damage by 1% per stack.
+
+//         Explosive Defense Up: Gives your explosive attacks a 10% chance to apply a stacking buff that increases your explosive resistance by 1% per stack.
+
+//         Explosive Speed: Gives your explosive attacks a 3% chance to apply a stacking buff that increases your movement speed by 1% per stack. 
+
+//         Explosive Health Regen: Gives your explosive attacks a 3% chance to apply a buff to you healing for 0.5 health every 3 seconds until combat ends.. "
+
+
+{
+    "Lil Fist": {
+            "unlock": "Kill 40/100/200 enemies with unarmed attacks. The unarmed explosion mutation (Truffle Tussle) does not count towards this unlock.",
+            "effect": "Unarmed attacks have a 100% chance to increase unarmed damage by 1%/1.5%/2%, stacking up to 100 stacks.  Stacks removed when combat ends or taking damage.",
+            "mastery": "Unarmed attacks have a 100% chance to hit an additional time for 6 true damage and 5 stun.",
+            "note": "Any proc (or attack) that is considered an Unarmed attack will also proc this mutation. The extra hit from the mastery is considered an Unarmed attack, allowing up to 2 stacks to be generated in a single hit: 1 from the base hit, 1 from the mastery hit. The stacking 2% damage buff also increases the damage of the mastery proc. This buff stacks multiplicatively, not additively. It can be calculated as 1.02^x. For example, 50 stacks would give a 1.02^50 buff, or a 269% damage increase (not 100%)."
+    },
+    "Chopper": {
+            "unlock": "Kill 40/100/200 enemies with axes.",
+            "effect": "Axe attacks have a 100% chance to cause the enemy to take 10%/15%/20% more damage from chopping, bashing, slashing, and stabbing for 5 seconds.",
+            "mastery": "Axe attacks have a 100% chance to buff the player for 5 seconds, allowing their stamina to instantly start regenerating once it is fully depleted.",
+            "note": ""
+    }
+}

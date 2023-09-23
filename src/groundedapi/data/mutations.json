@@ -1,0 +1,25 @@
+{
+        "Lil Fist": {
+                "effect_data": [
+                        {
+                                "type": "attack_multiplier",
+                                "restricted_to": "Unarmed",
+                                "effects": [1.01, 1.015, 1.02]
+                        },
+                        {
+                                "type": "attack_add",
+                                "restricted_to": "Unarmed",
+                                "effects": [0, 0, 6]
+                        }
+                ]
+        },
+        "Chopper": {
+                "effect_data": [
+                        {
+                                "type": "resistance_multiplier",
+                                "restricted_to": "Axe",
+                                "effects": [1.10, 1.15, 1.20]
+                        }
+                ]
+        }
+}

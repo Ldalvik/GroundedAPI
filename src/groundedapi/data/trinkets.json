@@ -1,0 +1,200 @@
+{
+    "Broodmother Trinket": [
+            {
+                "type": "summoned_creature_poison_damage",
+                "interval": 5,
+                "length": 30,
+                "value": 25
+            }
+        ],
+        "Biomedical Badge": {
+            "description": "Regenerates 1 health and increases hunger by 2 every 10 seconds.",
+            "note": "Increasing hunger means it makes you hungrier. A cooked meal replenishes 50 food, so this is the equivalent of having to eat an additional meal every ~4 minutes."
+        },
+    "Entomologist Badge": [
+            {
+                "type": "attack_damage_increase",
+                "value": 0.10
+            },
+            {
+                "type": "perfect_block_reduce",
+                "value": 500
+            }
+        ],
+        "Toxicology Badge": {
+            "description": "Reduces gas damage taken by 90%, provides 100% dust immunity, and doubles poison damage taken.",
+            "note": ""
+        },
+    "Defense Badge": [
+            {
+                "type": "damage_taken_reduce",
+                "value": 0.25
+            },
+            {
+                "type": "damage_dealt_reduce",
+                "value": 0.15
+            }
+        ],
+        "Intern Badge": {
+            "description": "Increases hauling capacity by 10 and reduces movement speed by 25%.",
+            "note": ""
+        },
+        "Compliance Badge": {
+            "description": "Gives your perfect blocks a 100% chance to heal you for 8 health. Perfect block is an AoE so you can heal off multiple enemies per block (e.g., if 5 enemies are near you when you block you will heal for 40). Also causes you to take 35% more damage.",
+            "note": ""
+        },
+        "Everlasting Hogstopper": {
+            "description": "Reduces your hunger by 10 every 60 seconds.",
+            "note": "This makes you less hungry. A cooked meal replenishes 50 food, so this is the equivalent of eating 1 less meal every 5 minutes."
+        },
+        "Fungal Charm": {
+            "description": "Reduces damage taken from explosions by 75%.",
+            "note": ""
+        },
+    "Hot Cha Charm": [
+            {
+                "type": "spicy_damage",
+                "value": 15
+            }
+        ],
+    "Suspicious Ice Cap": [
+            {
+                "type": "fresh_damage",
+                "value": 15
+            }
+        ],
+    "Shiny Salt Crystal": [
+            {
+                "type": "salty_damage",
+                "value": 15
+            }
+        ],
+    "Wondrous Wormhole":[
+            {
+                "type": "sour_damage",
+                "value": 15
+            }
+        ],
+    "Thor's Pendant": [
+            {
+                "type": "crit_chance",
+                "value": 0.01
+            },
+            {
+                "type": "crit_damage",
+                "value": 0.10
+            },
+            {
+                "type": "healing_received_increase",
+                "value": 0.10
+            },
+            {
+                "type": "sizzle_accumulation_reduce",
+                "value": 0.10
+            },
+            {
+                "type": "exhaustion_time_reduced",
+                "value": 0.10
+            },
+            {
+                "type": "hunger_rate_reduced",
+                "value": 0.10
+            },
+            {
+                "type": "thirst_rate_reduced",
+                "value": 0.10
+            },
+            {
+                "type": "attack_stamina_reduced",
+                "value": 0.10
+            },
+            {
+                "type": "health_regen",
+                "value": 1,
+                "interval": 10
+            },
+            {
+                "type": "stamina_regen",
+                "value": 5,
+                "interval": 5
+            }
+        ],
+        "Left Elf Charm": [
+            {
+                "type": "shield_repair",
+                "value": 25,
+                "chance": 0.10
+            }   
+        ],
+        "Right Elf Charm": [
+            {
+                "type": "weapon_repair",
+                "value": 25,
+                "chance": 0.10
+            }
+        ],
+        "Sarah's Charm": [
+            {
+                "type": "weapon_repair",
+                "value": 25,
+                "chance": 0.10
+            },
+            {
+                "type": "shield_repair",
+                "value": 25,
+                "chance": 0.10
+            }   
+        ],
+        "Insulating Larva Spike":[
+            {
+                "type": "sizzle_accumulation_reduce",
+                "value": 0.50
+            }
+        ],
+        "Rotten Berry Charm":[
+            {
+                "type": "range_poison_explosion",
+                "value": 400,
+                "chance": 0.10
+            },
+            {
+                "type": "range_poison_explosion_dot",
+                "value": 25,
+                "interval": 5,
+                "length": 15
+            }
+        ]
+        ""Power Droplet: Gives your unarmed attacks a 25% chance to proc a special bonus hit, dealing 6 true damage and 1 stun. This additional special hit is able to benefit from any weapon type buff or effect.""Note: Only the bonus hit is classified as ""every"" weapon type (except Unarmed, it is not considered an unarmed attack for balance reasons). Only the bonus hit can proc other effects that are specific to certain weapon types. As an example, if you were to equip a single piece of bee armor which has a 100% chance to add 3 stun to your bow shots, that 3 stun would not apply on every hit you do, it would ONLY be applied to the bonus hit when it procs (25% of the time). This trinket also does not work with Whittle Wizard as this trinket does not have the appropriate type tags. [I know this is a pretty complicated item so if anyone has questions please feel free to ask and i will do my best to answer.]"
+    Mantis Trinket: Your critical hits have a 100% chance to restore 50 stamina instantly.
+    Wasp Queen Trinket: Gives your bow attacks a 25% chance not to consume ammo when hitting an enemy.
+    "Shield Solidifier: Increases your block gauge by 200.  For reference a T3 shield has only 50 block gauge.  [This should work with regular weapons too, not just shields. I need to confirm that.  But the way it is setup in the game files it appears like it should work with anything that has a block meter when you hold the block key.
+        ]"
+        "Fancy Fletching: Gives your bow attacks a 100% chance to grant you a buff for 5 seconds, reducing exhaustion time (the time it takes for your stamina to begin recharging after being fully depleted) by 50%."
+    
+        
+"Wittle Widowling: Gives your attacks a 10% chance to summon a black widowling 
+to fight on your side for 15 seconds. [Duration unconfirmed.]
+Has all of the same stats and abilities as a normal widowling found in the world, including a venom attack.  
+Venom does 5 venom damage every 5 seconds for 35 seconds.  The spiders bite and leap do 25 and 35 general damage 
+respectively.
+
+Health And Safety Badge: Causes your attacks to heal you for 4% of the damage dealt to creatures. Also causes you to bleed for 5 health every 3 seconds.
+"Sticky Fingers: Gives your melee hits a 10% chance to steal an item from the enemy's loot table. After 1 item is stolen the robbed enemy becomes immune to stealing from Sticky Fingers indefinitely (i.e., until death/despawn and respawn).  This 'Steal Immunity' debuff is hidden and will not show up in the UI. Not all items are stealable.  Most boss crafting matterials, such as The Mantis' Claw and Head or the Broodmother Fang and Venom, are not stealable, however their chunks are.  Most items from regular enemies are stealable.  Rare trinkets are all stealable. ""Volatile Fang: Gives your perfect blocks/parries a 30% chance to cause an explosion, dealing 120 explosive damage in a 400 range area."
+Speed Droplet: Reduces stamina consumption while sprinting by 10% and also increases your overall move speed by 10%
+
+        "Power Droplet": [
+        
+            ]
+            Gives your unarmed attacks a 25% chance to proc a special bonus hit, dealing 6 true damage and 1 stun. 
+            This additional special hit is able to benefit from any weapon type buff or effect."
+            "Note: Only the bonus hit is classified as ""every"" weapon type (except Unarmed, it is not considered 
+            an unarmed attack for balance reasons). Only the bonus hit can proc other effects that are specific to 
+            certain weapon types. As an example, if you were to equip a single piece of bee armor which has a 100% 
+            chance to add 3 stun to your bow shots, that 3 stun would not apply on every hit you do, it would ONLY 
+            be applied to the bonus hit when it procs (25% of the time). This trinket also does not work with 
+            Whittle Wizard as this trinket does not have the appropriate type tags. [I know this is a pretty 
+            complicated item so if anyone has questions please feel free to ask and i will do my best to answer.]"
+
+
+"Infected Broodmother Accessory: Gives your summons' attacks a 25% chance to drop a cluster bomb, 
+dealing 70 explosive damage in a 300 range AoE. These cluster bombs can do friendly fire damage (specifically, they hurt you, your allies, and any of your other summons) but will not damage the summon that triggered the cluster bomb."

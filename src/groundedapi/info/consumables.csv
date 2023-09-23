@@ -1,0 +1,140 @@
+
+
+
+
+Drinks:
+Clean Water: Restores 50 water.
+Soda: Restores 10 water and 7 food.
+Juice: Restores 50 water and 7 food.
+
+Dirty Water:
+Each sip of dirty water stacks a debuff called Sick. This sick effect worsens the penalty for drinking dirty water and also reduces the amount of thirst recovered. Sleeping removes all stacks of sick.
+Dirty Water A (0 stacks sick): Restores 50 water. Reduces food by 4 per second for 5 seconds (-20 total food). Applies 1 stack of Sick.
+Dirty Water B (1 stacks sick): Restores 25 water. Reduces food by 8 per second for 5 seconds (-40 total food). Applies 1 stack of Sick.
+Dirty Water C (2+ stacks sick): Restores 10 water. Reduces food by 20 per second for 5 seconds (-100 total food). Applies 1 stack of Sick.
+
+Infected Broodmother Lair Water:
+"Applies 1 stack of Dirty Water.  Additionally, causes the player to take 100% increased damage from all sources, receive 25 additional stun when blocking. increases crit chance by 15% and reduces exhaustion time by 50% for 60 seconds."
+
+Healing Items:
+Fiber Bandage: Instantly heals 5 health and then heals an additional 1 health every 2 seconds for 160 seconds.
+Healbasa: Throw a blood bomb that heals both players and enemies in a small area for 40 health.
+
+Snack items:
+Natural snacks:
+Mushrooms: Restores 7 food.
+Algae: Restores 7 food.
+Nectar: Restores 10 food and 10 water.
+Acorn Bits: Restores 20 food.
+"Aphid Honeydew: Restores 7 food, 10 water, and 5 health."
+
+Human snacks:
+Granola Bar: Restores 15 food and heals 40 health.
+Billy Hog Bite: Restores 7 food.
+Fresh Billy Hog Bite: Restores 20 food.
+Cookie Sandwich Bits: Restores 7 food.
+Fresh Cookie Sandwich Bits: Restores 20 food.
+Apple Bits: Restores 7 food.
+Fresh Apple Bits: Restores 20 food.
+Donut Bite: Restores 7 food.
+Fresh Donut Bite: Restores 20 food.
+Candy Cornlet: Restores 10 food and additionally increases movement speed by 6% for 10 seconds.
+
+Candies:
+Mint Shard: Restores 20 food and additionally reduces sizzle by 10 for 2 seconds.
+Spicy Shard: Restores 15 food.
+Sour Shard: Restores 15 food.
+
+Other (debuffs):
+Muscle Sprout: Restores 7 food and causes 20 health damage.
+Spoiled Meat: Causes 12.5 health damage every 3 seconds for 15 seconds.
+Rotten Food: Causes 7.5 health damage every 3 seconds for 15 seconds.
+
+Meats:
+"Raw Aphid, Gnat, Weevil, and Grub Meat: Restores 7 food and additionally causes 7.5 health damage every 3 seconds for 15 seconds. (-37.5 total health)."
+Raw Tadpole Meat: Restores 10 water and additionally causes 7.5 health damage every 3 seconds for 15 seconds.
+Raw Water Flea Meat: Restores 7 food and 10 water. No penalty for raw consumption.
+
+Dried Meats:
+All varieties: Restores 20 food. No penalties.
+
+Meal Mechanics:
+"You can only have one well fed buff at a time. The well fed buff is stronger from higher tier meals, ranging from T0 up to T3."
+"Generally speaking you can only have 1 additional food effect in addition to well fed. However, there is a fairly complicated exception that I discovered that does allow limited meal stacking depending on the order you eat the meals."
+
+"There are two categories of buffs, you can have 1 buff from each category at the same time:"
+"--Category 1 (C1): Swim Speed, Junior Breath (T1), Critical Chance, Attack Stamina, Fall Damage, Reflect Damage, Grass Harvest Damage, Damage Reduction, Poison Damage Reduction, Dust resistance/immunity."
+"--Category 2 (C2): Max health, Rock Harvest Damage, Veteran Breath (T3), Sizzle Reduction, Exhaustion time reduction, Stamina Regeneration."
+
+"When you gain a new food buff it replaces the previous food buff from that same category. The way to stack buffs is to eat a T3 meal first followed by a T1/T2 meal, this allows you to keep the category 2, T3 buff and stack a category 1, T1/T2 buff on top of it. Your well fed buff will also be replaced with the tier of the last meal consumed, so it will be downgraded from T3 to T1/T2 in the process."
+
+Examples:
+"If you eat a Black Ox burger which gives Max Health (C2) and Damage Reduction (C1) and then eat a Spider Slider which gives Critical Chance (C1), it will replace the damage reduction (C1) leaving you with BOTH max health and critical chance."
+"If you eat a Quesadillantlion which provides Reflect Damage (C1) and Sizzle Reduction (C2) and then consume a Miteloaf with gives Attack Stamina (C1), it will replace the Reflect Damage leaving you with BOTH Sizzle Reduction and Attack Stamina."
+"Last example because it's a curve ball: If you eat a Tadpoloca Pudding which provides Swim Speed (C1) and Veteran Breath (C2) and then consume a Spaghetflea which gives Junior Breath (C1), it will replace the Swim Speed leaving you with BOTH the Junior Breath and Veteran Breath bonuses. Even though they're both breath bonuses, they're separate bonuses from different categories so they will stack."
+Here is a short video demonstrating how this works and clearly shows that limited meal stacking is possible. https://youtu.be/Jprfb8P7oz8
+
+Here's a simple rule to remember: Always pick the T3(C2) buff you want first and eat that T3 meal first. After that eat the T1/T2 meal with the C1 buff that you want. That will leave you with 1 T3 buff and 1 T1/T2 buff.
+
+Meals
+"Cooked meats, T0 meals:"
+"All cooked roasts/meats from Gnat, Weevil, Grub, Tadpole, and Flea provide the following two effects:"
+Large Heal: Heals for 30 health.
+Well Fed (T0): Restores 50 food and additionally provides the Well Fed (T0) buff which regenerates .5 health every 5 seconds and stops hunger drain for 300 seconds.
+
+T1 Meals:
+All T1 meals provide a buff in addition to Well Fed (T1).
+Well Fed (T1): Restores 50 food and additionally provides Well Fed (T1) which regenerates 1 health every 5 seconds and stops hunger drain for 720 seconds.
+Boatman Fin Soup: Increases swim speed by 30% for 720 seconds.
+Spaghetflea: Reduces oxygen consumption while swimming by 25% for 720 seconds.
+Larvagna: Increases critical hit chance by 5% for 720 seconds.
+Miteloaf: Reduces stamina use per attack by 10% for 720 seconds.
+Gnatchos: Reduces fall damage by 50% for 720 seconds.
+
+T2 Meals:
+All T2 meals provide a buff in addition to Well Fed (T2).
+Well Fed (T2): Restores 75 food and additionally provides the Well Fed (T2) buff which regenerates 1.5 health every 5 seconds and stops hunger drain for 960 seconds.
+Spider Slider: Increases critical hit chance by 5% for 960 seconds.
+Funguspacho: Reduces stamina use per attack by 10% for 960 seconds.
+Mac N Bees: Reduces fall damage by 50% for 960 seconds.
+Omelant: Reflects 25% of damage taken back at the attacker for 960 seconds.
+
+T3 Meals:
+All T3 meals provide a buff in addition to Well Fed (T3).
+Well Fed (T3): Restores 75 food and additionally provides Well Fed (T3) which regenerates 2 health every 5 seconds and stops hunger drain for 1200 seconds.
+Quesadillantlion: Reflects 25% of damage taken back at the attacker and reduces sizzle accumulation rate by 75% for 1200 seconds.
+Black Ox Burger: Increases max health by 15 and reduces damage taken by 2% for 1200 seconds.
+Termite Delight: Increases attack damage while harvesting rocks and grass by 25% for 1200 seconds.
+Tadpoloca Pudding: Reduces oxygen consumption while swimming by 70% and increases swim speed by 40% for 1200 seconds.
+Wasperole: Reduces poison damage taken by 25%. Reduces exhaustion time (the time it takes for your stamina to begin recharging after being fully depleted) by 25%. Both buffs last 1200 seconds.
+"Empanadust: Gives you a 75% chance to prevent the application of the Dust debuff. [This might actually provide full dust immunity, but the game files show a .75 value for the immunity, whereas a 1.0 value is expected to be used for a full immunity.  Need to test in-game.] Also increases stamina regeneration rate by 50% (meal buff 2). Lasts 1200 seconds."
+
+Smoothies:
+All smoothies heal instantly upon use. They also apply 1 additional buff with a duration based on the smoothie base used to craft it.
+Smoothie Bases:
+Basic Smoothie (Grub base): Instantly heals for 20 health and additionally provides an effect for 120 seconds.
+Beefy Smoothie (Muscle sprout base): Instantly heals for 40 health and additionally provides an effect for 120 seconds.
+Sticky Smoothie (Gum base): Instantly heals for 20 health and additionally provides an effect for 240 seconds.
+
+Additional Effects:
+Sticky Slop: Heals for 5 health every 10 seconds. Can only be made with the Gum base without using a set recipe.
+Green Machine: Increases stamina regeneration rate by 20%.
+Gastro Goo: Provides full gas immunity.
+Fuzz on the Rocks: Increases maximum health by 20.
+Boost Juice: Increases maximum stamina by 20.
+Hedge Lord: Reduces hunger and thirst drain by 25%.
+[Note: This smoothie is currently bugged and you can stack the thirst drain reduction twice by drinking a normal/beefy version followed by a sticky version.]
+Liquid Gills: Reduces oxygen use while swimming by 20%.
+Fluid Flippers: Increases swim speed by 10%.
+Liquid Rage: Increases all attack damage by 10%.
+Worker's Comp: Increases hauling capacity by 3.
+Human Food: Reduces damage taken by 10%.
+Waspidote: Removes all poisons and provides poison immunity for 1 second (Duration not increased by base).  Also reduces all poison damage taken by 25%.
+Boss Sauce: Increases critical chance by 5%.
+"You can have 1 of each additional effect, for a total of 15 different smoothie buffs active at the same time."
+
+Items:
+Shinobi Sneeze:
+"Throw a smoke bomb at your feet that causes 5 AoE stun damage to enemies and creates a pollen cloud that lingers for 10 seconds, slowing enemies by 25% for 1 second and reapplies for as long as the enemy remains in the cloud."
+"Additionally, throwing the bomb damages you for 20 health and reduces all damage you deal by 80% for 5 seconds. This effect also turns you invisible for 5 seconds or until you attack."
+[Note: I tested this in game and the cloud might not be triggering properly. It's the same cloud used by the Bee Armor set and it is incredibly buggy with that set as well. The pollen VFX goes off because that is tied to the bomb throw itself. The pollen cloud does not seem to spawn and slow enemies.]

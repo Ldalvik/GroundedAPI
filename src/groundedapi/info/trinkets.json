@@ -1,0 +1,92 @@
+{
+    "Broodmother Trinket": {
+        "description": "Gives your summoned creatures' attacks a 100% chance to apply poison, dealing 25 damage every 5 seconds for 30 seconds.",
+        "note": ""
+    },
+    "Biomedical Badge": {
+        "description": "Regenerates 1 health and increases hunger by 2 every 10 seconds.",
+        "note": "Increasing hunger means it makes you hungrier. A cooked meal replenishes 50 food, so this is the equivalent of having to eat an additional meal every ~4 minutes."
+    },
+    "Entomologist Badge": {
+        "description": "Increases attack damage by 10% and reduces the perfect block window by 500ms (effectively making it impossible to perfect block as the normal window is ~250 ms).",
+        "note": ""
+    },
+    "Toxicology Badge": {
+        "description": "Reduces gas damage taken by 90%, provides 100% dust immunity, and doubles poison damage taken.",
+        "note": ""
+    },
+    "Defense Badge": {
+        "description": "Reduces damage taken by 25% and reduces your damage dealt by 15%.",
+        "note": ""
+    },
+    "Intern Badge": {
+        "description": "Increases hauling capacity by 10 and reduces movement speed by 25%.",
+        "note": ""
+    },
+    "Compliance Badge": {
+        "description": "Gives your perfect blocks a 100% chance to heal you for 8 health. Perfect block is an AoE so you can heal off multiple enemies per block (e.g., if 5 enemies are near you when you block you will heal for 40). Also causes you to take 35% more damage.",
+        "note": ""
+    },
+    "Everlasting Hogstopper": {
+        "description": "Reduces your hunger by 10 every 60 seconds.",
+        "note": "This makes you less hungry. A cooked meal replenishes 50 food, so this is the equivalent of eating 1 less meal every 5 minutes."
+    },
+    "Fungal Charm": {
+        "description": "Reduces damage taken from explosions by 75%.",
+        "note": ""
+    },
+    "Hot Cha Charm": {
+        "description": "Gives your melee attacks a 100% chance to deal an additional 15 spicy damage.",
+        "note": ""
+    },
+    "Suspicious Ice Cap": {
+        "description": "Gives your melee attacks a 100% chance to deal an additional 15 fresh damage.",
+        "note": ""
+    },
+    "Shiny Salt Crystal": {
+        "description": "Gives your melee attacks a 100% chance to deal an additional 15 salty damage.",
+        "note": ""
+    },
+    "Wondrous Wormhole": {
+        "description": "Gives your melee attacks a 100% chance to deal an additional 15 sour damage.",
+        "note": "None of these candy charms change your weapon type. They simply add an additional hit of 15 elemental damage which scales up or down independently of your weapon. They also only work with melee attacks.  Bows, thrown, and staves do not work with them."
+    },
+    "Thor's Pendant": {
+        "description": "Provides the following:\n1% critical chance\n10% critical damage\n10% increased healing received\n10% reduced sizzle accumulation\n10% reduced exhaustion time\n10% reduced hunger rate\n10% reduced thirst rate\n10% reduced stamina use with attacks\n1 health regeneration every 10 seconds\n5 stamina regeneration every 10 seconds",
+        "note": ""
+    },
+    "Left Elf Charm": {
+        "description": "Gives your blocks a 10% chance to repair 25 durability on your equipped shield.",
+        "note": "Shields have 100/160/250 durability for T1/T2/T3 respectively."
+    }
+Right Elf Charm: Gives your attacks on creatures a 10% chance to repair 25 durability on your equipped weapon.
+Weapons have approximately 600/700/800 durability for T1/T2/T3 respectively. ~4% of durability repaired per proc.
+Sarah's Charm: both of the above.
+Insulating Larva Spike: Reduces Sizzle accumulation by 50%.
+"Rotten Berry Charm: Gives your attacks made with a rotten weapon a 10% chance to cause a 400 range poison explosion which poisons all enemies in range, dealing 25 damage every 5 seconds for 15 seconds. [Does not stack with the Widow Armor Sleek poison.]""Power Droplet: Gives your unarmed attacks a 25% chance to proc a special bonus hit, dealing 6 true damage and 1 stun. This additional special hit is able to benefit from any weapon type buff or effect.""Note: Only the bonus hit is classified as ""every"" weapon type (except Unarmed, it is not considered an unarmed attack for balance reasons). Only the bonus hit can proc other effects that are specific to certain weapon types. As an example, if you were to equip a single piece of bee armor which has a 100% chance to add 3 stun to your bow shots, that 3 stun would not apply on every hit you do, it would ONLY be applied to the bonus hit when it procs (25% of the time). This trinket also does not work with Whittle Wizard as this trinket does not have the appropriate type tags. [I know this is a pretty complicated item so if anyone has questions please feel free to ask and i will do my best to answer.]"
+Mantis Trinket: Your critical hits have a 100% chance to restore 50 stamina instantly.
+Wasp Queen Trinket: Gives your bow attacks a 25% chance not to consume ammo when hitting an enemy.
+"Shield Solidifier: Increases your block gauge by 200.  For reference a T3 shield has only 50 block gauge.  [This should work with regular weapons too, not just shields. I need to confirm that.  But the way it is setup in the game files it appears like it should work with anything that has a block meter when you hold the block key.
+    ]""
+    Fancy Fletching: Gives your bow attacks a 100% chance to grant you a buff for 5 seconds, reducing exhaustion time (the time it takes for your stamina to begin recharging after being fully depleted) by 50%."
+
+    "Wittle Widowling: Gives your attacks a 10% chance to summon a black widowling to fight on your side for 15 seconds. [Duration unconfirmed.]
+Has all of the same stats and abilities as a normal widowling found in the world, including a venom attack.  Venom does 5 venom damage every 5 seconds for 35 seconds.  The spiders bite and leap do 25 and 35 general damage respectively. "
+
+Health And Safety Badge: Causes your attacks to heal you for 4% of the damage dealt to creatures. Also causes you to bleed for 5 health every 3 seconds.
+
+"Sticky Fingers: Gives your melee hits a 10% chance to steal an item from the enemy's loot table. After 1 item is stolen the robbed enemy becomes immune to stealing from Sticky Fingers indefinitely (i.e., until death/despawn and respawn).  This 'Steal Immunity' debuff is hidden and will not show up in the UI. Not all items are stealable.  Most boss crafting matterials, such as The Mantis' Claw and Head or the Broodmother Fang and Venom, are not stealable, however their chunks are.  Most items from regular enemies are stealable.  Rare trinkets are all stealable. ""Volatile Fang: Gives your perfect blocks/parries a 30% chance to cause an explosion, dealing 120 explosive damage in a 400 range area."
+
+"Power Droplet":
+Gives your unarmed attacks a 25% chance to proc a special bonus hit, dealing 6 true damage and 1 stun. 
+This additional special hit is able to benefit from any weapon type buff or effect."
+"Note: Only the bonus hit is classified as ""every"" weapon type (except Unarmed, it is not considered 
+an unarmed attack for balance reasons). Only the bonus hit can proc other effects that are specific to 
+certain weapon types. As an example, if you were to equip a single piece of bee armor which has a 100% 
+chance to add 3 stun to your bow shots, that 3 stun would not apply on every hit you do, it would ONLY 
+be applied to the bonus hit when it procs (25% of the time). This trinket also does not work with 
+Whittle Wizard as this trinket does not have the appropriate type tags. [I know this is a pretty 
+complicated item so if anyone has questions please feel free to ask and i will do my best to answer.]"
+
+Speed Droplet: Reduces stamina consumption while sprinting by 10% and also increases your overall move speed by 10%
+"Infected Broodmother Accessory: Gives your summons' attacks a 25% chance to drop a cluster bomb, dealing 70 explosive damage in a 300 range AoE. These cluster bombs can do friendly fire damage (specifically, they hurt you, your allies, and any of your other summons) but will not damage the summon that triggered the cluster bomb."
