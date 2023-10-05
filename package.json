@@ -1,7 +1,7 @@
 {
-  "name": "forzaapi_dev",
+  "name": "grounded-api",
   "version": "1.0.0",
-  "description": "Dev API for reading and modifying Forza Horizon 5 tune files",
+  "description": "Calculator API for Grounded",
   "scripts": {
     "watch": "ts-node-dev --exit-child src/index.ts",
     "build": "tsc",
